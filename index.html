@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <!-- meta  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- // bootstrab // -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/fancyApp.css">
+    <!-- // fontawesome // -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- select2 -->
+    <link rel="stylesheet" href="css/select2.min.css">
+    <!-- //animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- // css // -->
+    <link rel="stylesheet" href="css/sass/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ________________ // header // ________________ -->
+    <header class="main">
+        <div class="container">
+
+
+            <div class=" d-flex justify-content-between align-items-center ">
+                <a href="index.html" class="d-block"><img src="imgs/logo.svg" alt="logo" class="logo"></a>
+                <ul class="navbar">
+                    <li class=""><a href="index.html"> الرئيسية </a></li>
+                    <li><a href="#"> الأقسام </a></li>
+                    <li><a href="#"> المفضله </a></li>
+                    <li><a href="#"> الطلبات </a></li>
+
+                </ul>
+                <div class="d-flex align-items-center gap-20">
+
+
+
+                    <div class="lang">
+                        <i class="fa-solid fa-globe"></i>
+                        <p class="ar d-inline-block"> العربية</p>
+                        <p class="en d-none"> english</p>
+                    </div>
+                    <a href="#" class="text-dark">
+                        تسجيل / دخول
+                    </a>
+                    <a href="notifications.html" class="main_color ">
+                        <i class="fa-solid fa-bell text-muted f-18"></i>
+                    </a>
+                    <div class=" d-flex justify-content-end align-items-center gap-10 mb-1">
+
+                        <div class=" main_menu burger-icon  wh-color ">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </header>
+    <!-- _____________ // body-content // _____________ -->
+    <div class="body-content">
+        <div class="owl-carousel owl-carousel1 owl-theme" style="direction: ltr;">
+            <div class="item">
+                <div class="mainSection ">
+                    <img src="imgs/slider1.png" alt="panner" class="panner">
+
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="mainSection ">
+                    <img src="imgs/slider2.svg" alt="panner" class="panner">
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="mainSection ">
+                    <img src="imgs/slider3.svg" alt="panner" class="panner">
+
+                </div>
+            </div>
+        </div>
+        <!-- _____________ // owl-carousel-2 // _____________ -->
+
+        <div class="s-space">
+            <h4 class="mb-3 main_color text-center"> الأقسام الرئيسية </h4>
+            <div class="container">
+                <div class="owl-carousel owl-carousel2 owl-theme" style="direction: ltr;">
+                    <div class="item mb-3">
+                        <div class="contain_brand ">
+                            <h5> هواتف </h6>
+                                <img src="imgs/phone.svg" alt="brand" class="brand">
+
+                        </div>
+                    </div>
+                    <div class="item mb-3">
+                        <div class="contain_brand ">
+                            <h5> أحذية </h6>
+
+                                <img src="imgs/shoes.png" alt="brand" class="brand">
+
+                        </div>
+                    </div>
+                    <div class="item mb-3">
+                        <div class="contain_brand ">
+                            <h5> لابتوب </h6>
+
+                                <img src="imgs/labtop.png" alt="brand" class="brand">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--  -->
+        <div class="s-space">
+            <h4 class="mb-3 main_color text-center"> الأقسام الرئيسية </h4>
+            <div class="container">
+                <div class="flex-between mb-3">
+                    <div class="d-flex align-items-center gap-10">
+                        <h6>طريقة العرض </h6>
+                        <div class="d-flex align-items-center gap-10">
+                            <div class="square displayـMethod">
+                                <i class="fa-solid fa-shapes"></i>
+                            </div>
+                            <div class="rectangular displayـMethod rotateX">
+                                <i class="fa-solid fa-pause"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-10 cursor_pointer" type="button" data-toggle="modal"
+                        data-target="#exampleModalCenter">
+                        <h6> فلترة النتائج </h6>
+                        <!-- <img class="filterImg" src="imgs/vuesax/bold/vuesax/bold/filter-edit.svg" /> -->
+                        <div class="square displayـMethod main_border">
+
+                            <img class="filterImg" src="imgs/vuesax/bold/vuesax/bold/filter-edit.svg" />
+                        </div>
+                        <!-- Modal -->
+                          <!-- Modal -->
+
+                       
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-6  mb-3">
+                        <div class="advertisement">
+                            <div class="likeIcon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <img src="imgs/slider1.png" alt="" class="mb-3 advertisement_card_img">
+                            <div class="p-2">
+                                <div class="flex-between mb-3">
+                                    <h6>اسم الاعلان</h6>
+                                    <p class="text-muted"> منذ ٣ ساعات </p>
+                                </div>
+                                <div class="d-flex align-items-center gap-10">
+                                    <img src="imgs/userIcon.png" alt="" class="imgIcon">
+                                    <h6>اسم المعلن</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6  mb-3">
+                        <div class="advertisement">
+                            <div class="likeIcon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <img src="imgs/slider1.png" alt="" class="mb-3 advertisement_card_img">
+                            <div class="p-2">
+                                <div class="flex-between mb-3">
+                                    <h6>اسم الاعلان</h6>
+                                    <p class="text-muted"> منذ ٣ ساعات </p>
+                                </div>
+                                <div class="d-flex align-items-center gap-10">
+                                    <img src="imgs/userIcon.png" alt="" class="imgIcon">
+                                    <h6>اسم المعلن</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6  mb-3">
+                        <div class="advertisement">
+                            <div class="likeIcon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <img src="imgs/slider1.png" alt="" class="mb-3 advertisement_card_img">
+                            <div class="p-2">
+                                <div class="flex-between mb-3">
+                                    <h6>اسم الاعلان</h6>
+                                    <p class="text-muted"> منذ ٣ ساعات </p>
+                                </div>
+                                <div class="d-flex align-items-center gap-10">
+                                    <img src="imgs/userIcon.png" alt="" class="imgIcon">
+                                    <h6>اسم المعلن</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6  mb-3  ">
+                        <div class="advertisement">
+                            <div class="likeIcon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <img src="imgs/slider1.png" alt="" class="mb-3 advertisement_card_img">
+                            <div class="p-2">
+                                <div class="flex-between mb-3">
+                                    <h6>اسم الاعلان</h6>
+                                    <p class="text-muted"> منذ ٣ ساعات </p>
+                                </div>
+                                <div class="d-flex align-items-center gap-10">
+                                    <img src="imgs/userIcon.png" alt="" class="imgIcon">
+                                    <h6>اسم المعلن</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6  mb-3">
+                        <div class="advertisement">
+                            <div class="likeIcon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <img src="imgs/slider1.png" alt="" class="mb-3 advertisement_card_img">
+                            <div class="p-2">
+                                <div class="flex-between mb-3">
+                                    <h6>اسم الاعلان</h6>
+                                    <p class="text-muted"> منذ ٣ ساعات </p>
+                                </div>
+                                <div class="d-flex align-items-center gap-10">
+                                    <img src="imgs/userIcon.png" alt="" class="imgIcon">
+                                    <h6>اسم المعلن</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6  mb-3">
+                        <div class="advertisement">
+                            <div class="likeIcon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <img src="imgs/slider1.png" alt="" class="mb-3 advertisement_card_img">
+                            <div class="p-2">
+                                <div class="flex-between mb-3">
+                                    <h6>اسم الاعلان</h6>
+                                    <p class="text-muted"> منذ ٣ ساعات </p>
+                                </div>
+                                <div class="d-flex align-items-center gap-10">
+                                    <img src="imgs/userIcon.png" alt="" class="imgIcon">
+                                    <h6>اسم المعلن</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6  mb-3">
+                        <div class="advertisement">
+                            <div class="likeIcon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <img src="imgs/slider1.png" alt="" class="mb-3 advertisement_card_img">
+                            <div class="p-2">
+                                <div class="flex-between mb-3">
+                                    <h6>اسم الاعلان</h6>
+                                    <p class="text-muted"> منذ ٣ ساعات </p>
+                                </div>
+                                <div class="d-flex align-items-center gap-10">
+                                    <img src="imgs/userIcon.png" alt="" class="imgIcon">
+                                    <h6>اسم المعلن</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6  mb-3  ">
+                        <div class="advertisement">
+                            <div class="likeIcon">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <img src="imgs/slider1.png" alt="" class="mb-3 advertisement_card_img">
+                            <div class="p-2">
+                                <div class="flex-between mb-3">
+                                    <h6>اسم الاعلان</h6>
+                                    <p class="text-muted"> منذ ٣ ساعات </p>
+                                </div>
+                                <div class="d-flex align-items-center gap-10">
+                                    <img src="imgs/userIcon.png" alt="" class="imgIcon">
+                                    <h6>اسم المعلن</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--  -->
+
+
+    </div>
+    <!-- modal-map -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div id="map" style="width:100%;height:300px"></div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn main_btn butn__new" data-dismiss="modal"><span>العودة</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ________________ // footer // ________________ -->
+    <footer>
+        <div class="footer-content py-4">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-3 col-6">
+                        <img class="footer-logo mb-4" src="imgs/logo.svg" alt="">
+                        <div class="flex-between ">
+                            <a href="#" class="d-block ">
+                                <img src="imgs/whapp.svg" alt="" class="socialIcon">
+                            </a>
+                            <a href="#" class="d-block">
+                                <img src="imgs/facebook.svg" alt="" class="socialIcon">
+                            </a>
+                            <a href="#" class="d-block">
+                                <img src="imgs/insta.svg" alt="" class="socialIcon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-6">
+                        <ul class="d-flex align-otems-center gap-30 flex-wrap">
+                            <li>
+                                <a href="#" class="text-dark">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark">المفضله</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark">الطلبات</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark">الشروط والأحكام</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark">من نحن </a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark">الأسئله المتكرره</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark"> الشكاوي والمقترحات </a>
+
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-dark"> تواصل معنا </a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark"> السلع والأعلانات والمنوعات </a>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-center py-3 copyRight">
+                <div class="f-16">جميع الحقوق لغرض تصميم وبرمجة مؤسسة أوامر الشبكة 2024</div>
+
+
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="fitContent" data-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-circle-xmark text-danger"></i>
+                </div>
+                <h5 class="modal-title text-center" id="exampleModalLongTitle"> فلترة الأعلانات
+                </h5>
+                <div></div>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3"> المنطقة</div>
+                    <a href="map.html" class="flex-between checkShape mb-3 text-dark">
+                        <div> - اختر المنطقه - </div>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <label class="d-block mb-3" for="checkInput">
+                        <input type="checkbox" class="checkInput" id="checkInput" hidden>
+                        <div class="checkShape flex-between">
+                            <div class="checkIcon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div class="text-center">
+                                الأقرب
+                            </div>
+                            <div></div>
+                        </div>
+
+                    </label>
+                    <label class="d-block mb-3" for="checkInput2">
+                        <input type="checkbox" class="checkInput" id="checkInput2" hidden>
+                        <div class="checkShape flex-between">
+                            <div class="checkIcon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div class="text-center">
+                                بدون صور 
+                            </div>
+                            <div></div>
+                        </div>
+
+                    </label>
+                    <button class="btn main_btn w-100 " type="button"> تطبيق </button>
+                </form>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+    <!-- // loader //  -->
+    <!-- <div class="loader">
+        <img src="img/logo.png" alt="" class="logoWhite  animate__animated animate__jackInTheBox">
+    </div> -->
+    <!-- _______________ // end_Page // _______________ -->
+
+    <!-- 1-jQuery _ 2-Popper.js _ 3-Bootstrap JS -->
+    <!-- fixed -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/fancyApp.js"></script>
+    <script src="js/select2.min.js"></script>
+    <!-- // main-script //  -->
+    <script src="js/script.js"></script>
+    <script
+        src="https://maps.google.com/maps/api/js?&libraries=places&key=AIzaSyBNLoYGrbnQI_GMqHt6m0PSN9yA7Zvq7gA&callback=initMap"
+        type="text/javascript"></script>
+    <script>
+        ///////// $$ add_active_to_header $$ //////////
+        window.addEventListener('scroll', () => {
+            let scrollTop = document.documentElement.scrollTop;
+            if (scrollTop >= 300) {
+                document.querySelector('header').classList.add('active')
+
+            } else {
+                document.querySelector('header').classList.remove('active')
+
+            }
+        })
+        ///////// $$ active-link $$ //////////
+        let allLinks = document.querySelectorAll(".navbar a");
+        allLinks.forEach((link) => {
+            if (link.href == location.href) {
+                link.parentElement.classList.add('active')
+            } else if (link.href !== location.href) {
+                link.parentElement.classList.remove('active');
+            }
+        })
+        // ////////////////////////////////////////
+        // var map;
+        // var marker;
+        // var myLatlng = new google.maps.LatLng(24.774265, 46.738586);
+        // var geocoder = new google.maps.Geocoder();
+        // var infowindow = new google.maps.InfoWindow();
+        // function initMap1() {
+        //     var mapOptions = {
+        //         zoom: 10,
+        //         center: myLatlng,
+        //         mapTypeId: google.maps.MapTypeId.ROADMAP
+        //     };
+        //     map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        //     marker = new google.maps.Marker({
+        //         map: map,
+        //         position: myLatlng,
+        //         draggable: true
+        //     });
+        //     geocoder.geocode({ 'latLng': myLatlng }, function (results, status) {
+        //         if (status == google.maps.GeocoderStatus.OK) {
+        //             if (results[0]) {
+        //                 document.querySelector(".address").value = results[0].formatted_address;
+        //                 infowindow.setContent(results[0].formatted_address);
+        //                 infowindow.open(map, marker);
+        //             }
+        //         }
+        //     });
+        //     google.maps.event.addListener(marker, 'dragend', function () {
+        //         geocoder.geocode({ 'latLng': marker.getPosition() }, function (results, status) {
+        //             if (status == google.maps.GeocoderStatus.OK) {
+        //                 if (results[0]) {
+        //                     document.querySelector(".address").value = results[0].formatted_address;
+        //                     infowindow.setContent(results[0].formatted_address);
+        //                     infowindow.open(map, marker);
+        //                 }
+        //             }
+        //         });
+        //     });
+        // }
+        // google.maps.event.addDomListener(window, 'load', initMap1);
+        // // ///////////////////////////////////////////////////////
+        // let map2;
+
+        // async function initMap() {
+        //     // The location of Uluru
+        //     const position = { lat: -25.344, lng: 131.031 };
+        //     // Request needed libraries.
+        //     //@ts-ignore
+        //     const { Map } = await google.maps.importLibrary("maps");
+        //     const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+        //     // The map, centered at Uluru
+        //     map2 = new Map(document.getElementById("map2"), {
+        //         zoom: 4,
+        //         center: position,
+        //         mapId: "DEMO_MAP_ID",
+        //     });
+
+        //     // The marker, positioned at Uluru
+        //     const marker = new AdvancedMarkerElement({
+        //         map: map2,
+        //         position: position,
+        //         title: "Uluru",
+        //     });
+        // }
+
+        // initMap();
+        //////// $$ slider  $$ //////////
+        $('.owl-carousel1').owlCarousel({
+            nav: false,
+            loop: true,
+            autoplay: true,
+            items: 1,
+            autoplayTimeout: 3000,
+            smartSpeed: 2000,
+        })
+        //////// $$ slider  $$ //////////
+        $('.owl-carousel2').owlCarousel({
+            nav: false,
+            loop: true,
+            autoplay: true,
+            items: 6,
+            margin: 20,
+            autoplayTimeout: 3000,
+            smartSpeed: 2000,
+            responsive: {
+                0: {
+                    dotsEach: 1,
+                    items: 1
+                },
+                600: {
+                    dotsEach: 1,
+                    items: 2
+                },
+                1200: {
+                    dotsEach: 1,
+                    items: 3
+                }
+            }
+        })
+        ///////// $$ burger-icon $$ //////////
+        let mainMenu = document.querySelector('.burger-icon');
+        let nav = document.querySelector('.navbar');
+        mainMenu.onclick = function (e) {
+            nav.classList.toggle('active');
+            mainMenu.classList.toggle("active")
+            e.stopPropagation()
+        }
+        document.body.onclick = function () {
+            if (nav.classList.contains('active')) {
+                nav.classList.remove('active')
+                mainMenu.classList.remove("active")
+                document.body.style.cursor = 'pointer'
+            }
+        }
+        nav.onclick = function (e) {
+            e.stopPropagation();
+        }
+
+        // ////////////////////// likeicon ///////////////////////
+
+        document.querySelectorAll('.likeIcon').forEach
+            (el => {
+                el.addEventListener('click', () => {
+                    el.classList.toggle('active')
+                })
+
+            })
+        // ////////////////////// change display  ///////////////////////
+        document.querySelector('.displayـMethod.square').addEventListener('click', (e) => {
+            document.querySelector('.displayـMethod.square').classList.add('.active')
+            document.querySelectorAll('.advertisement').forEach(el => {
+                el.parentElement.classList.add('col-lg-3')
+                el.parentElement.classList.remove('col-12')
+
+                el.parentElement.classList.add('col-6')
+
+                if (el.classList.contains('linear')) {
+                    el.classList.remove('linear')
+                    el.parentElement.classList.remove('col-lg-6')
+                }
+            })
+        })
+
+        document.querySelector('.displayـMethod.rectangular').addEventListener('click', () => {
+            document.querySelector('.displayـMethod.rectangular').classList.add('.active')
+            document.querySelectorAll('.advertisement').forEach(el => {
+                el.classList.add('linear')
+                el.parentElement.classList.add('col-lg-6')
+                el.parentElement.classList.remove('col-6')
+
+                el.parentElement.classList.add('col-12')
+            })
+        })
+    </script>
+    <script>
+        /////////////    window.addEventListener('scroll', () => {
+        window.addEventListener('scroll', () => {
+            let scrollTop = document.documentElement.scrollTop;
+            if (scrollTop >= 550) {
+                document.querySelector('header').classList.add('active')
+
+            } else {
+                document.querySelector('header').classList.remove('active')
+            }
+        })
+    </script>
+</body>
+
+</html>
