@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <!-- meta  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- // bootstrab // -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/fancyApp.css">
+    <!-- // fontawesome // -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- select2 -->
+    <link rel="stylesheet" href="css/select2.min.css">
+    <!-- //animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- // css // -->
+    <link rel="stylesheet" href="css/sass/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ________________ // header // ________________ -->
+    <header class="main">
+        <div class="container">
+
+
+            <div class=" d-flex justify-content-between align-items-center ">
+                <a href="index.html" class="d-block"><img src="imgs/logo.svg" alt="logo" class="logo"></a>
+                <ul class="navbar">
+                    <li class=""><a href="index.html"> الرئيسية </a></li>
+                    <li><a href="#"> الأقسام </a></li>
+                    <li><a href="#"> المفضله </a></li>
+                    <li><a href="#"> الطلبات </a></li>
+
+                </ul>
+                <div class="d-flex align-items-center gap-20">
+
+
+
+                    <div class="lang">
+                        <i class="fa-solid fa-globe"></i>
+                        <p class="ar d-inline-block"> العربية</p>
+                        <p class="en d-none"> english</p>
+                    </div>
+                    <a href="#" class="text-dark">
+                        تسجيل / دخول
+                    </a>
+                    <a href="notifications.html" class="main_color ">
+                        <i class="fa-solid fa-bell text-muted f-18"></i>
+                    </a>
+                    <div class=" d-flex justify-content-end align-items-center gap-10 mb-1">
+
+                        <div class=" main_menu burger-icon  wh-color ">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </header>
+    <!-- _____________ // body-content // _____________ -->
+    <div class="body-content">
+        <div class="s-space">
+            <div class="container">
+                <div class="d-flex align-items-center gap-10 mb-3">
+                    <div class="order_desc_text">
+                        تم ارسال طلب شراء علي الاعلان وبانتظار الموافقه
+                    </div>
+                    <div class="order_status main" data-toggle="modal" data-target="#staticBackdrop">
+                      قبول الفاتوره 
+                    </div>
+                    <a href="index.html" class="order_status text-red" >
+                      رفض الفاتوره
+                    </a>
+                    <div class="modal fade " id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog-centered modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header align-items-center border-0">
+
+                                    <button type="button" class="close m-0 p-0" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">
+                                            <i class="fa-solid fa-circle-xmark text-danger"></i>
+                                        </span>
+                                    </button>
+                                    <h5 class="modal-title m-auto" id="staticBackdropLabel">الدفع</h5>
+
+                                </div>
+                                <div class="modal-body">
+
+                                 <div class="border rounded-2">
+                                    <p class="p-2">
+                                        وسائل الدفع
+                                    </p>
+                                    <hr class="m-0 p-0" />
+                                    <div class="p-2">
+                                       
+                                        <label id="wallet" class="mb-3 d-block">
+                                            <input type="radio" hidden id="wallet" name="pay_type" class="pay_type">
+                                            <div class="text-muted">
+                                                <i class="fa-solid fa-wallet"></i>
+                                                <span> المحفظه </span>
+                                            </div>
+                                      
+                                        </label>
+                                        <label id="online" class=" d-block">
+                                            <input type="radio" hidden id="online" name="pay_type" class="pay_type">
+                                            <div class="text-muted">
+                                                <i class="fa-solid fa-wallet"></i>
+                                                <span> دفع الكتروني </span>
+                                            </div>
+                                        </label>
+                                    </div>
+                                 </div>
+                                 <div class="border rounded-2">
+                                    <p class="p-2">
+                                       تكلفة الطلب 
+                                    </p>
+                                    <hr class="m-0 p-0" />
+                                    <div class="p-2">
+                                       
+                                      <div class="flex-between mb-3">
+                                        <p> سعر المنتج</p>
+                                        <p> 
+                                            <span>100</span>
+                                            <span>ر.س</span>
+                                        </p>
+
+                                      </div>
+                                      <div class="flex-between">
+                                        <p> سعر الضريبة</p>
+                                        <p> 
+                                            <span>100</span>
+                                            <span>ر.س</span>
+                                        </p>
+
+                                      </div>
+                                    </div>
+                                    <hr class="m-0 p-0" />
+                                    <div class="p-2 flex-between ">
+                                            <p>  الأجمالي</p>
+                                            <p> 
+                                                <span>150</span>
+                                                <span>ر.س</span>
+                                            </p>
+    
+                                    </div>
+                                 </div>
+
+                                </div>
+                                <div class="modal-footer flex-center gap-20 border-0"> 
+                                    <a href="current_order_details_status_2.html" id="confirmCancel" class="btn main_btn w-100" data-dismiss="modal"> تأكيد الدفع  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
+
+                </div>
+                <div class='line-container flex-between'>
+                    <div class='progress-line'>
+                
+                        <div class='status'>
+                            <div class='dot completed'>
+
+                            </div>
+                            <div> بانتظار الموافقه </div>
+
+
+                        </div>
+                        <div class='status'>
+                            <div class='dot current'>
+
+                            </div>
+                            <div> قيد الدفع</div>
+
+                        </div>
+
+                        <div class='status'>
+                            <div class='dot'>
+
+                            </div>
+                            <div> في الطريق </div>
+
+                        </div>
+
+                        <div class='status'>
+                            <div class='dot'>
+
+                            </div>
+                            <div> تم الوصول </div>
+
+                        </div>
+
+                        <div class='status'>
+                            <div class='dot'>
+
+                            </div>
+                            <div> تم الانتهاء </div>
+
+                        </div>
+                    </div>
+                    <img src="imgs/credit_card.svg" alt="" class="credit_card">
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="border rounded-2 mb-3">
+                            <div class="d-flex p-2 gap-10 align-items-center">
+                                <img src="imgs/4phones.png" alt="" class="md_img">
+                                <div>
+                                    <h6 class="mb-5 main_color"> هنا اسم المنتج </h6>
+                                    <h6> القسم الرئيسي</h6>
+                                </div>
+                            </div>
+                            <!-- <hr class="m-0 p-0" /> -->
+                            <hr />
+                            <div class="d-flex p-2 gap-10 align-items-center">
+                                <img src="imgs/4phones.png" alt="" class="md_img">
+                                <div>
+                                    <h6 class="mb-5 main_color"> هنا اسم المنتج </h6>
+                                    <h6> القسم الرئيسي</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="border rounded-2">
+                            <h6 class="p-3">
+                                تفاصيل طلب
+                            </h6>
+                            <hr class="m-0 p-0" />
+                            <div class="row p-3">
+                                <div class="col-6">
+
+                                    <h6 class="mb-5 main_color"> هنا اسم المنتج </h6>
+                                    <h6 class="mb-5"> القسم الرئيسي</h6>
+                                </div>
+                                <div class="col-6">
+
+                                    <h6 class="mb-5 main_color"> هنا اسم المنتج </h6>
+                                    <h6 class="mb-5"> القسم الرئيسي</h6>
+                                </div>
+                                <div class="col-6">
+
+                                    <h6 class="mb-5 main_color"> هنا اسم المنتج </h6>
+                                    <h6 class=""> القسم الرئيسي</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ________________ // footer // ________________ -->
+    <footer>
+        <div class="footer-content py-4">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-3 col-6">
+                        <img class="footer-logo mb-4" src="imgs/logo.svg" alt="">
+                        <div class="flex-between ">
+                            <a href="#" class="d-block ">
+                                <img src="imgs/whapp.svg" alt="" class="socialIcon">
+                            </a>
+                            <a href="#" class="d-block">
+                                <img src="imgs/facebook.svg" alt="" class="socialIcon">
+                            </a>
+                            <a href="#" class="d-block">
+                                <img src="imgs/insta.svg" alt="" class="socialIcon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-6">
+                        <ul class="d-flex align-otems-center gap-30 flex-wrap">
+                            <li>
+                                <a href="#" class="text-dark">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark">المفضله</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark">الطلبات</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark">الشروط والأحكام</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark">من نحن </a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark">الأسئله المتكرره</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark"> الشكاوي والمقترحات </a>
+
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-dark"> تواصل معنا </a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark"> السلع والأعلانات والمنوعات </a>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-center py-3 copyRight">
+                <div class="f-16">جميع الحقوق لغرض تصميم وبرمجة مؤسسة أوامر الشبكة 2024</div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+    <!-- // loader //  -->
+    <!-- <div class="loader">
+        <img src="img/logo.png" alt="" class="logoWhite  animate__animated animate__jackInTheBox">
+    </div> -->
+    <!-- _______________ // end_Page // _______________ -->
+
+    <!-- 1-jQuery _ 2-Popper.js _ 3-Bootstrap JS -->
+    <!-- fixed -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/fancyApp.js"></script>
+    <script src="js/select2.min.js"></script>
+    <!-- // main-script //  -->
+    <script src="js/script.js"></script>
+    <script
+        src="https://maps.google.com/maps/api/js?&libraries=places&key=AIzaSyBNLoYGrbnQI_GMqHt6m0PSN9yA7Zvq7gA&callback=initMap"
+        type="text/javascript"></script>
+    <script>
+        ///////// $$ add_active_to_header $$ //////////
+        window.addEventListener('scroll', () => {
+            let scrollTop = document.documentElement.scrollTop;
+            if (scrollTop >= 300) {
+                document.querySelector('header').classList.add('active')
+
+            } else {
+                document.querySelector('header').classList.remove('active')
+
+            }
+        })
+        ///////// $$ active-link $$ //////////
+        let allLinks = document.querySelectorAll(".navbar a");
+        allLinks.forEach((link) => {
+            if (link.href == location.href) {
+                link.parentElement.classList.add('active')
+            } else if (link.href !== location.href) {
+                link.parentElement.classList.remove('active');
+            }
+        })
+
+        ///////// $$ burger-icon $$ //////////
+        let mainMenu = document.querySelector('.burger-icon');
+        let nav = document.querySelector('.navbar');
+        mainMenu.onclick = function (e) {
+            nav.classList.toggle('active');
+            mainMenu.classList.toggle("active")
+            e.stopPropagation()
+        }
+        document.body.onclick = function () {
+            if (nav.classList.contains('active')) {
+                nav.classList.remove('active')
+                mainMenu.classList.remove("active")
+                document.body.style.cursor = 'pointer'
+            }
+        }
+        nav.onclick = function (e) {
+            e.stopPropagation();
+        }
+        // ////////////////////// likeicon ///////////////////////
+        document.querySelectorAll('.likeIcon').forEach
+            (el => {
+                el.addEventListener('click', () => {
+                    el.classList.toggle('active')
+                })
+
+            })
+    </script>
+    <script>
+        /////////////    window.addEventListener('scroll', () => {
+        window.addEventListener('scroll', () => {
+            let scrollTop = document.documentElement.scrollTop;
+            if (scrollTop >= 550) {
+                document.querySelector('header').classList.add('active')
+
+            } else {
+                document.querySelector('header').classList.remove('active')
+            }
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#confirmCancel').click(function() {
+                $('#staticBackdrop').modal('hide'); // Hide the first modal
+                $('#cancelorderdone').modal('show'); // Show the second modal
+            });
+        });
+    </script>
+</body>
+
+</html>
